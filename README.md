@@ -10,14 +10,15 @@ ___
 
 ### Project two: Tic Tac Toe AI  
 This Project was just to learn how to make AI. I made it based on a python tutorial but written in gdscript. It helped me to learn how simple an algorithm really is! [Here's part one of the tutorial.](https://www.youtube.com/watch?v=5s_lGC2sxwQ)  
-###### [View the (unclean & unoptimized) source code.](https://github.com/ColdCalzone/TicTacToe)
+###### [View the (unclean & unoptimized) source code.](https://github.com/ColdCalzone/TicTacToe)  
+___
 
 ### Project three: ???  
 This Project is a secret! It will release within the next year or so, so get ready!  
-###### View the source code.
+###### View the source code.  
 ___
 
 ### Project four: ???  
 This Project is a secret! It's being constantly updated and is, honestly, probably not a good idea to share. This project is the first major project I have written in Rust, which is a new personal favorite!  
-###### View the source code.
+###### View the source code.  
 ___
