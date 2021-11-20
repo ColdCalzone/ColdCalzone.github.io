@@ -11,6 +11,7 @@
     var root = document.getElementById("main_content");
     function removeFromPage(value, index, array) {
     	document.removeChild(value);
+    	console.log("fucking hell");
     }
     function addToPage(value, index, array) {
         if(value["tags"].includes(restrictedTag) || restrictedTag == undefined) {
@@ -53,6 +54,7 @@
     generateSite();
     
     function reloadPage(tag) {
+    restrictedTag = tag;
     	if(tag == undefined) {
     		window.location.href = window.location.hostname;
     	}
