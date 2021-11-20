@@ -9,6 +9,7 @@ div a li{
 }
 
 div a:hover li{
+    display: block;
     background-color: #0cd2f3;
     transition: 1s all ease;
 }
