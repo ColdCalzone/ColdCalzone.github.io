@@ -15,7 +15,7 @@ This Project was just to learn how to make AI. I made it based on a python tutor
 ___
 
 ### Project three: Fire & Fondness 2: Enhanced Edition 
-This project is the bgigest undertaking I've had yet. This is a mod of [John Gabriel's](https://johngabriel.itch.io) [Fire & Fondness 2](https://johngabriel.itch.io/fire-and-fondness-2) adding an extra seven levels and several components. It was of course made with Godot.
+This project is the bgigest undertaking I've had yet. This is a mod of [John Gabriel's](https://johngabrieluk.itch.io) [Fire & Fondness 2](https://johngabrieluk.itch.io/fire-and-fondness-2) adding an extra seven levels and several components. It was of course made with Godot.
 ###### [View the source code.](https://github.com/ColdCalzone/fire-and-fondness-2-EE)
 ___
 
