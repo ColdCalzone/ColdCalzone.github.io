@@ -24,7 +24,7 @@
 	"name": "Project four: Minimal Brainfuck Interpretter",
 	"description": "This project was made to learn C++. <a href=\"https://esolangs.org/wiki/Brainfuck\">BrainFuck</a> is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.",
 	"source": "https://github.com/ColdCalzone/minimal-brainfuck-interpreter",
-	"icon": "/icons/BF-Clearer",
+	"icon": "/icons/BF-Clearer.png",
 	"tags": ["C++", "Programming", "Command Line"]
 	},
 	{
