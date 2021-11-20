@@ -3,7 +3,7 @@
 	#reset {
 		cursor:pointer
 	}
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, a {
 		text-shadow: none;
 	}
 	.post-icon {
@@ -76,6 +76,7 @@
             }).then(json => projects = json);
         projects.forEach(addToPage); 
     }
+    root.appendChild(document.createElement("hr"))
     generateSite();
     
     function reloadPage(tag) {
@@ -88,5 +89,4 @@
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<h5>Click on a tag to filter results to that tag, click the button below to reset the current tag filter</h5>
 	<a class="btn" id="reset" onclick="reloadPage('/')" href="/">Reset Tag</a>
-	<hr>
 </section>
