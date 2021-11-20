@@ -3,30 +3,35 @@
 	"name": "Project one: Bread Bread Breadvolution",
 	"description": "This project was made for the <a href=\"https://itch.io/jam/godot-wild-jam-26\">26th Godot Wild Jam</a>.\nThis was my first submission despite being in the server for a few months and it scored 8th place overall, which is incredible and is way higher than I expected!",
 	"source": "https://github.com/ColdCalzone/bread-bread-breadvolution",
-	"tags": ["Godot", "Playable", "Fun", "Music", "Godot Wild Jam"]
+	"icon": "/icons/BBB.png",
+	"tags": ["Godot", "Playable", "Fun", "Music", "GWJ"]
 	},
 	{
 	"name": "Project two: Tic Tac Toe AI",
 	"description": "This Project was just to learn how to make AI. I made it based on a python tutorial but written in gdscript. It helped me to learn how simple an algorithm really is! <a href=\"https://www.youtube.com/watch?v=5s_lGC2sxwQ\">Here’s part one of the tutorial.</a>",
 	"source": "https://github.com/ColdCalzone/TicTacToe",
+	"icon": "",
 	"tags": ["Godot", "Playable", "AI"]
 	},
 	{
 	"name": "Project three: Fire & Fondness 2: Enhanced Edition",
 	"description": "This project is the biggest undertaking I’ve had yet. This is a mod of <a href=\"https://johngabrieluk.itch.io\">John Gabriel’s</a> <a href=\"https://johngabrieluk.itch.io/fire-and-fondness-2\">Fire & Fondness 2</a> adding an extra seven levels and several components. It was of course made with Godot.",
 	"source": "https://github.com/ColdCalzone/fire-and-fondness-2-EE",
+	"icon": "",
 	"tags": ["Godot", "Playable", "Fun", "Puzzle"]
 	},
 	{
 	"name": "Project four: Minimal Brainfuck Interpretter",
 	"description": "This project was made to learn C++. <a href=\"https://esolangs.org/wiki/Brainfuck\">BrainFuck</a> is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.",
 	"source": "https://github.com/ColdCalzone/minimal-brainfuck-interpreter",
+	"icon": "",
 	"tags": ["C++", "Programming", "Command Line"]
 	},
 	{
 	"name": "Project five: Discord Plays",
-	"description": "This project is a remiplementation of a feature of an abandoned project which will never see the light of day. This effectively allows Discord to control your computer, and is intended to let a Discord server host a game night with a host straming and viewers watching and controlling the game in real time. Due to the nature of this bot, it cannot be hosted publically as a normal bot, and must be ran in a new instance on the host’s computer. Instructions, source code, and examples can be seen in the repository below. (COMING SOON)",
+	"description": "This project is a remiplementation of a feature of an abandoned project which will never see the light of day. This effectively allows Discord to control your computer, and is intended to let a Discord server host a game night with a host streaming and viewers watching and controlling the game in real time. Due to the nature of this bot, it cannot be hosted publically as a normal bot, and must be ran in a new instance on the host’s computer. Instructions, source code, and examples can be seen in the repository below. (COMING SOON)",
 	"source": "",
+	"icon": "",
 	"tags": ["Discord", "Rust", "Bot", "Playable"]
 	}
 ]

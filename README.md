@@ -1,8 +1,15 @@
 <section>
 <style>
-#reset {
-	cursor:pointer
-}
+	#reset {
+		cursor:pointer
+	}
+	h1, h2, h3, h4, h5, h6 {
+		text-shadow: none;
+	}
+	.icon {
+		height: 33%;
+		width: auto;
+	}
 </style>
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
@@ -20,6 +27,9 @@
             var name = document.createElement("h3");
             name.innerHTML = value["name"];
             post.appendChild(name);
+            var icon = document.createElement("img");
+            icon.src = value["icon"];
+            post.appendChild(icon);
             var description = document.createElement("p");
             description.innerHTML = value["description"];
             post.appendChild(description);
