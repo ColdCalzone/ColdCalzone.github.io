@@ -43,8 +43,6 @@
         }
     }
     async function generateSite() {
-    	var posts = document.getElementsByClassName("post");
-    	Array.prototype.forEach(removeFromPage, posts);
         await fetch("./projects.json")
                 .then(response => {
                 return response.json();
@@ -53,18 +51,14 @@
     }
     generateSite();
     
-    function reloadPage(tag) {
-    restrictedTag = tag;
-    	if(tag == undefined) {
-    		window.location.href = window.location.hostname;
-    	}
-    	generateSite();
+    function reloadPage() {
+	window.location.reload();
     }
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<h5>Click on a tag to filter results to that tag, click the button below to reset the current tag filter</h5>
-	<a class="btn" id="reset" onclick="reloadPage()">Reset Tag</a>
+	<a class="btn" id="reset" onclick="reloadPage()" href="#">Reset Tag</a>
 	<hr>
 </section>
