@@ -20,6 +20,6 @@ This project is the bgigest undertaking I've had yet. This is a mod of [John Gab
 ___
 
 ### Project four: Minimal Brainfuck Interpretter
-This project was made to learn C++. (BrainFuck)[https://esolangs.org/wiki/Brainfuck] is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.
-###### (View the source code.)[https://github.com/ColdCalzone/minimal-brainfuck-interpreter]
+This project was made to learn C++. [BrainFuck](https://esolangs.org/wiki/Brainfuck) is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.
+###### [View the source code.](https://github.com/ColdCalzone/minimal-brainfuck-interpreter)
 ___
