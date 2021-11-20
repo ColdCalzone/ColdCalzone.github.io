@@ -28,7 +28,7 @@
             var tags = document.createElement("h6");
             var tag_list = "";
 	    for(var i = 0;i < value["tags"].length;i++) {
-	    	tag_list += "<a href=\"#" + value["tags"][i] + "\" onclick=\"reloadPage(\"#" + value["tags"][i] +"\")\">" + value["tags"][i] + "</a>"
+	    	tag_list += "<a href=\"#" + value["tags"][i] + "\" onclick=\"reloadPage(\"#"+ value["tags"][i] +"\")\">" + value["tags"][i] + "</a>"
 	    	console.log("Help?");
 	    	if(i + 1 < value["tags"].length) {
 	    		tag_list += ", ";
@@ -54,9 +54,9 @@
     
     function reloadPage(tag) {
     	if(tag == undefined) {
-    		window.loacation.href = window.location.hostname;
+    		window.location.href = window.location.hostname;
     	}
-	window.location.reload();
+    	window.location.reload();
     }
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
