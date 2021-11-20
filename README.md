@@ -6,7 +6,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		text-shadow: none;
 	}
-	.icon {
+	.post-icon {
 		height: 100%;
 		width: auto;
 		display: inline-block; 
@@ -44,7 +44,7 @@
             head.appendChild(name);
             var icon = document.createElement("img");
             icon.src = value["icon"];
-            icon.classList.add("icon");
+            icon.classList.add("post-icon");
             head.appendChild(icon);
             post.appendChild(head);
             var description = document.createElement("p");
