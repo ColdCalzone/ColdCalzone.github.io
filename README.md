@@ -1,6 +1,7 @@
 <section>
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
+	var projects = []
 	function addToPage(value, index, array) {
 		var post = document.createElement("div");
 		var name = document.createElement("h3");
@@ -15,13 +16,15 @@
 		root.appendChild(post);
 		root.appendChild(document.createElement("hr"));
 	}
-	var projects = []
-	await fetch("./projects.json")
-        	.then(response => {
-			return response.json();
-		}).then(json => projects = json);
-	var root = document.getElementById("main_content");
-	projects.forEach(addToPage); 
+	async function generateSite() {
+		await fetch("./projects.json")
+	        	.then(response => {
+				return response.json();
+			}).then(json => projects = json);
+		var root = document.getElementById("main_content");
+		projects.forEach(addToPage); 
+	}
+	generateSite();
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
