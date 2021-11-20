@@ -1,23 +1,14 @@
 <section>
 <style>
-div li{
-    float: left;
-    width: 140px;
+div a li{
+    display: none;
+    background-color: #fff;
     height: 60px;
-    font-size: 20px;
-    line-height: 60px;
-    /* border: 1px solid #000; */
-    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+    transition: 1s all ease;
 }
 
-div li a{
-    text-decoration: none;
-    color: #000;
-    /* background-color: red; */
-    display: block;
-}
-
-div li a:hover{
+div a:hover li{
     background-color: #0cd2f3;
     transition: 1s all ease;
 }
@@ -67,10 +58,12 @@ div li a:hover{
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
 	<div>
-		<a class="btn">Tags</a>
-		<li><a href="#">Samsung</a></li>
-		<li><a href="#">Apple</a></li>
-		<li><a href="#">Asus</a></li>
+		<a class="btn">Tags<div>
+			<li><a href="#">Samsung</a></li>
+			<li><a href="#">Apple</a></li>
+			<li><a href="#">Asus</a></li>
+		</div>
+		</a>
 	</div>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<hr>
