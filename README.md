@@ -14,6 +14,10 @@
 	.name {
 		display: inline-block;
 	}
+	.head {
+		display: flex; 
+		align-items: center; 
+	}
 </style>
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
@@ -28,14 +32,17 @@
         if(value["tags"].includes(restrictedTag) || restrictedTag == undefined) {
             var post = document.createElement("div");
             post.classList.add("post");
+            var head = document.createElement("div");
+            head.classList.add("head");
             var name = document.createElement("h3");
             name.innerHTML = value["name"];
             name.classList.add("name");
-            post.appendChild(name);
+            head.appendChild(name);
             var icon = document.createElement("img");
             icon.src = value["icon"];
             icon.classList.add("icon");
-            post.appendChild(icon);
+            head.appendChild(icon);
+            post.appendChild(head);
             var description = document.createElement("p");
             description.innerHTML = value["description"];
             post.appendChild(description);
