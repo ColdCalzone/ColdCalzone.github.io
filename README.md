@@ -21,7 +21,7 @@
 		align-items: center; 
 		position:relative;
 	}
-	@media only screen and (max-width: 635px) {
+	@media only screen and (max-width: 645px) {
 		/* For desktop: */
 		.post-icon {
 			display: none;
