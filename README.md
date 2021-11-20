@@ -14,6 +14,8 @@
 		var source = document.createElement("h6");
 		source.innerHTML = "<a href = \"" + value["source"] + "\">View the source code.</a>"
 		post.appendChild(source);
+		var tags = document.createElement("h6");
+		tags.innerHTML = "Tags: " + value["tags"].join(", ");
 		root.appendChild(post);
 		root.appendChild(document.createElement("hr"));
 	}
