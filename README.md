@@ -16,6 +16,7 @@
 		post.appendChild(source);
 		var tags = document.createElement("h6");
 		tags.innerHTML = "Tags: " + value["tags"].join(", ");
+		post.appendChild(tags);
 		root.appendChild(post);
 		root.appendChild(document.createElement("hr"));
 	}
