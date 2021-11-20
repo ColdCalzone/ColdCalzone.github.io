@@ -1,6 +1,6 @@
 <section>
 <style>
-button li{
+div li{
     float: left;
     width: 140px;
     height: 60px;
@@ -10,17 +10,26 @@ button li{
     text-align: center;
 }
 
-button li a{
+div li a{
     text-decoration: none;
     color: #000;
     /* background-color: red; */
     display: block;
 }
 
-button li a:hover{
+div li a:hover{
     background-color: #0cd2f3;
     transition: 1s all ease;
 }
+@keyframes drop{
+    0%{
+        transform: scale(2,2) rotatex(90deg);
+    }
+    100%{
+        transform: scale(1,1) rotatex(0deg);
+    }
+}
+
 </style>
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
@@ -57,11 +66,12 @@ button li a:hover{
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
-	<button>
+	<div>
+		<button>Tags</button>
 		<li><a href="#">Samsung</a></li>
 		<li><a href="#">Apple</a></li>
 		<li><a href="#">Asus</a></li>
-	</button>
+	</div>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<hr>
 </section>
