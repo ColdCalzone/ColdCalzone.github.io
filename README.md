@@ -15,7 +15,7 @@
     function addToPage(value, index, array) {
         if(value["tags"].includes(restrictedTag) || restrictedTag == undefined) {
             var post = document.createElement("div");
-            post.class = "post";
+            post.classList.add("post");
             var name = document.createElement("h3");
             name.innerHTML = value["name"];
             post.appendChild(name);
@@ -35,7 +35,7 @@
 	    	}
 	    }
             tags.innerHTML = "Tags: " + tag_list;
-            tags.class = "tags";
+            tags.classList.add("tags");
             post.appendChild(tags);
             root.appendChild(post);
             root.appendChild(document.createElement("hr"));
