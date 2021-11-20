@@ -37,7 +37,7 @@
     }
     async function generateSite() {
     	var posts = document.getElementsByClassName("post");
-    	posts.forEach(removeFromPage);
+    	Array.prototype.forEach(removeFromPage, posts);
         await fetch("./projects.json")
                 .then(response => {
                 return response.json();
