@@ -67,7 +67,7 @@ div li a:hover{
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
 	<div>
-		<button>Tags</button>
+		<a class="btn">Tags</a>
 		<li><a href="#">Samsung</a></li>
 		<li><a href="#">Apple</a></li>
 		<li><a href="#">Asus</a></li>
