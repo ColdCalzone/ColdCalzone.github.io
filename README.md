@@ -25,6 +25,6 @@ This project was made to learn C++. [BrainFuck](https://esolangs.org/wiki/Brainf
 ___
 
 ### Project five: Discord Plays
-This project is a remiplementation of a feature of an abandoned project which will never see the light of day. This effectively allows Discord to control your computer, and is intended to let a Discord server host a game night with a host straming and viewers watching and controlling the game in real time. Due to the nature of this bot, it cannot be hosted publically as a normal bot, and must be ran in a new instance on the host's computer. Instructions, source code, and examples can be seen in the repository below.
+This project is a remiplementation of a feature of an abandoned project which will never see the light of day. This effectively allows Discord to control your computer, and is intended to let a Discord server host a game night with a host streaming and viewers watching and controlling the game in real time. Due to the nature of this bot, it cannot be hosted publically as a normal bot, and must be ran in a new instance on the host's computer. Instructions, source code, and examples can be seen in the repository below.
 ###### [View the source code. (COMING SOON!)]()
 ___
