@@ -7,11 +7,11 @@
 		text-shadow: none;
 	}
 	.icon {
-		height: 33%;
+		height: 100%;
 		width: auto;
 		display: inline-block; 
 		position: absolute;
-		top: 8px;
+		top: -8px;
 		right: 8px;
 	}
 	.name {
@@ -20,6 +20,7 @@
 	.head {
 		display: flex; 
 		align-items: center; 
+		position:relative;
 	}
 </style>
 <script>
