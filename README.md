@@ -1,12 +1,5 @@
 <section id="main_content">
-        <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
-	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
-	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
-	<hr>
-
-	
-</section>
-<script>
+	<script>
 	// https://www.codeproject.com/Tips/1263247/How-to-Open-a-JSON-File-in-JavaScript-for-Web
 	function loadJSON(callback) {
                     var xobj = new XMLHttpRequest();
@@ -33,3 +26,10 @@
                 });
 	    console.log(projects);
 </script>
+        <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
+	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
+	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
+	<hr>
+
+	
+</section>
