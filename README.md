@@ -36,7 +36,8 @@
         }
     }
     async function generateSite() {
-    	document.getElementsByClassName("post").forEach(removeFromPage);
+    	var posts = document.getElementsByClassName("post");
+    	posts.forEach(removeFromPage);
         await fetch("./projects.json")
                 .then(response => {
                 return response.json();
