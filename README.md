@@ -1,5 +1,6 @@
 # ColdCalzone's Personal hell  
 ###### This page is just to document some code and other such creations of mine.  
+##### (My Github page (where the repositories are))[https://github.com/ColdCalzone]
 ___  
 
 ### Project one: Bread Bread Breadvolution  
@@ -13,12 +14,12 @@ This Project was just to learn how to make AI. I made it based on a python tutor
 ###### [View the (unclean & unoptimized) source code.](https://github.com/ColdCalzone/TicTacToe)  
 ___
 
-### Project three: ???  
-This Project is a secret! It will release within the next year or so, so get ready!  
-###### View the source code.  
+### Project three: Fire & Fondness 2: Enhanced Edition 
+This project is the bgigest undertaking I've had yet. This is a mod of [John Gabriel's](https://johngabriel.itch.io) [Fire & Fondness 2](https://johngabriel.itch.io/fire-and-fondness-2) adding an extra seven levels and several components. It was of course made with Godot.
+###### [View the source code.](https://github.com/ColdCalzone/fire-and-fondness-2-EE)
 ___
 
-### Project four: ???  
-This Project is a secret! It's being constantly updated and is, honestly, probably not a good idea to share. This project is the first major project I have written in Rust, which is a new personal favorite!  
-###### View the source code.  
+### Project four: Minimal Brainfuck Interpretter
+This project was made to learn C++. (BrainFuck)[https://esolangs.org/wiki/Brainfuck] is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.
+###### (View the source code.)[https://github.com/ColdCalzone/minimal-brainfuck-interpreter]
 ___
