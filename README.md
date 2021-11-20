@@ -10,6 +10,9 @@
 		height: 33%;
 		width: auto;
 		display: inline-block; 
+		position: absolute;
+		top: 8px;
+		right: 8px;
 	}
 	.name {
 		display: inline-block;
