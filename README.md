@@ -15,14 +15,14 @@
                             }
                         };
 
-                    xobj.open('GET', '/projects.json', true);
+                    xobj.open('GET', 'projects.json', true);
                     // Maybe you require use of an unknown origin.
                     /*xobj.setRequestHeader("Access-Control-Allow-Origin","*");*/
                     xobj.send(null);  
                 };
             var projects = []
             loadJSON(function(response) {
-                    projects = response
+                    projects = response;
                 });
 	    console.log(projects);
 </script>
