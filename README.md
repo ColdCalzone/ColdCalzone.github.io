@@ -50,7 +50,7 @@
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
-	<h5>Click on a tag to filter results to that tag, click the button below to reset the current tag filter</h5
+	<h5>Click on a tag to filter results to that tag, click the button below to reset the current tag filter</h5>
 	<a class="btn" onclick="reloadPage(\"\")">Reset Tag</a>
 	<hr>
 </section>
