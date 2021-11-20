@@ -1,6 +1,6 @@
 # ColdCalzone's Personal hell  
 ###### This page is just to document some code and other such creations of mine.  
-##### (My Github page (where the repositories are))[https://github.com/ColdCalzone]
+##### [My Github page (where the repositories are)](https://github.com/ColdCalzone
 ___  
 
 ### Project one: Bread Bread Breadvolution  
@@ -22,4 +22,9 @@ ___
 ### Project four: Minimal Brainfuck Interpretter
 This project was made to learn C++. [BrainFuck](https://esolangs.org/wiki/Brainfuck) is an easy to implement language, with several pieces of example code to test against to make a faithful implementation.
 ###### [View the source code.](https://github.com/ColdCalzone/minimal-brainfuck-interpreter)
+___
+
+### Project five: Discord Plays
+This project is a remiplementation of a feature of an abandoned project which will never see the light of day. This effectively allows Discord to control your computer, and is intended to let a Discord server host a game night with a host straming and viewers watching and controlling the game in real time. Due to the nature of this bot, it cannot be hosted publically as a normal bot, and must be ran in a new instance on the host's computer. Instructions, source code, and examples can be seen in the repository below.
+###### [View the source code. (COMING SOON!)]()
 ___
