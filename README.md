@@ -9,6 +9,10 @@
 	.icon {
 		height: 33%;
 		width: auto;
+		display: inline-block; 
+	}
+	.name {
+		display: inline-block;
 	}
 </style>
 <script>
@@ -26,9 +30,11 @@
             post.classList.add("post");
             var name = document.createElement("h3");
             name.innerHTML = value["name"];
+            name.classList.add("name");
             post.appendChild(name);
             var icon = document.createElement("img");
             icon.src = value["icon"];
+            icon.classList.add("icon");
             post.appendChild(icon);
             var description = document.createElement("p");
             description.innerHTML = value["description"];
