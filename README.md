@@ -11,7 +11,6 @@
 		width: auto;
 		display: inline-block; 
 		position: absolute;
-		top: -8px;
 		right: 8px;
 	}
 	.name {
@@ -21,6 +20,12 @@
 		display: flex; 
 		align-items: center; 
 		position:relative;
+	}
+	@media only screen and (max-width: 635px) {
+		/* For desktop: */
+		.post-icon {
+			display: none;
+		}
 	}
 </style>
 <script>
