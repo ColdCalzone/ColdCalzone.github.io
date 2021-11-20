@@ -2,6 +2,7 @@
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
 	var projects = []
+	var root = document.getElementById("main_content");
 	function addToPage(value, index, array) {
 		var post = document.createElement("div");
 		var name = document.createElement("h3");
@@ -21,7 +22,6 @@
 	        	.then(response => {
 				return response.json();
 			}).then(json => projects = json);
-		var root = document.getElementById("main_content");
 		projects.forEach(addToPage); 
 	}
 	generateSite();
