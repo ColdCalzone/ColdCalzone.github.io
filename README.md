@@ -15,7 +15,7 @@
                             }
                         };
 
-                    xobj.open('GET', 'projects.json', true);
+                    xobj.open('GET', 'https://coldcalzone.github.io/projects.json', true);
                     // Maybe you require use of an unknown origin.
                     /*xobj.setRequestHeader("Access-Control-Allow-Origin","*");*/
                     xobj.send(null);  
