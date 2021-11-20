@@ -1,30 +1,27 @@
 <section id="main_content">
 	<script>
-	// https://www.codeproject.com/Tips/1263247/How-to-Open-a-JSON-File-in-JavaScript-for-Web
-	function loadJSON(callback) {
-                    var xobj = new XMLHttpRequest();
-                    xobj.overrideMimeType("application/json");
-
-                    xobj.onreadystatechange = function () {
-                            if (xobj.readyState == 4 && xobj.status == "200") {
-                                // Required use of an anonymous callback as .open will NOT return 
-                                // a value but simply returns undefined in asynchronous mode
-                                callback(xobj.responseText);
-                            } else {
-                                callback("[{\"Nothing\"}]");
-                            }
-                        };
-
-                    xobj.open('GET', 'https://coldcalzone.github.io/projects.json', true);
-                    // Maybe you require use of an unknown origin.
-                    /*xobj.setRequestHeader("Access-Control-Allow-Origin","*");*/
-                    xobj.send(null);  
-                };
-            var projects = []
-            loadJSON(function(response) {
-                    projects = response;
-                });
-	    console.log(projects);
+	// WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS?
+	function addToPage(value, index, array) {
+		var post = document.createElement("div");
+		var name = document.createElement("h3");
+		name.innerHTML = value["name"];
+		post.appendChild(name);
+		var description = document.createElement("p");
+		description.innerHTML = value["description"];
+		post.appendChild(description);
+		var source = document.createElement("h6");
+		source.innerHTML = "<a href = \"" + value["source"] + "\">View the source code.</a>"
+		post.appendChild(source);
+		root.appendChild(post);
+		root.appendChild(document.createElement("hr"));
+	}
+	var projects = []
+	await fetch("./projects.json")
+        	.then(response => {
+			return response.json();
+		}).then(json => projects = json);
+	var root = document.getElementById("main_content");
+	projects.forEach(addToPage); 
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
