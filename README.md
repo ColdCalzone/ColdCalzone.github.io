@@ -1,6 +1,5 @@
-<section id="main_content">
-	<script>
-	// WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS?
+<script>
+	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
 	function addToPage(value, index, array) {
 		var post = document.createElement("div");
 		var name = document.createElement("h3");
@@ -27,6 +26,3 @@
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<hr>
-
-	
-</section>
