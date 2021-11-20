@@ -1,11 +1,43 @@
 <section>
 <style>
-	#dropdown {
-		display: none;
-	}
-	.show {
-		display: block;
-	}
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    /* border: 1px solid #000; */
+    text-align: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    /* background-color: red; */
+    display: block;
+}
+
+ul li a:hover{
+    background-color: #0cd2f3;
+    transition: 1s all ease;
+}
+
+ul li ul li{
+    display: none;
+    background-color: #fff;
+    height: 60px;
+    box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+    transition: 1s all ease;
+}
+ul li:hover ul li{
+    display: block;
+    transition: 1s all;
+    animation: drop 1s ease;
+}
 </style>
 <script>
 	/* WHY CAN'T THE INTERNET EVER SHOW ME *UP TO DATE* THINGS? */
@@ -39,19 +71,14 @@
 		projects.forEach(addToPage); 
 	}
 	generateSite();
-	
-	function dropMenu() {
-		document.getElementById("dropdown").classList.toggle("show");
-	}
 </script>
         <h1 id="coldcalzones-personal-hell">ColdCalzone’s Personal hell</h1>
 	<h6 id="this-page-is-just-to-document-some-code-and-other-such-creations-of-mine">This page is just to document some code and other such creations of mine.</h6>
-	<button onclick="dropMenu()">Dropdown</button>
-		<div id="dropdown">
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#contact">Contact</a>
-		</div>
+	<ul>
+		<li><a href="#">Samsung</a></li>
+		<li><a href="#">Apple</a></li>
+		<li><a href="#">Asus</a></li>
+	</ul>
 	<h5 id="my-github-page-where-the-repositories-are"><a href="https://github.com/ColdCalzone">My Github page (where the repositories are)</a></h5>
 	<hr>
 </section>
