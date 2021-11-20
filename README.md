@@ -23,7 +23,10 @@
             var tags = document.createElement("h6");
             var tag_list = ""
 	    for(var i = 0;i<tags.length;i++) {
-	    	tag_list += "<a href=\"#" + value["tags"][i] + "\" onclick=\"reloadPage(\""+ value["tags"][i] +"\")\">" + value["tags"][i] + "</a>, "'
+	    	tag_list += "<a href=\"#" + value["tags"][i] + "\" onclick=\"reloadPage(\""+ value["tags"][i] +"\")\">" + value["tags"][i] + "</a>"
+	    	if(i + 1 < tags.length) {
+	    		tag_list += ", ";
+	    	}
 	    }
             tags.innerHTML = "Tags: " + tag_list;
             tags.class = "tags";
