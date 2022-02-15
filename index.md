@@ -28,8 +28,8 @@
 		}
 	}
 	#ad {
-		width:50%;
-		margin:0 auto;
+		display:flex;
+		justify-content:center;
 	}
 </style>
 <script>
@@ -100,6 +100,8 @@
 	<a class="btn" id="reset" onclick="reloadPage('/')" href="/">Reset Tag</a>
 </section>
 <section>
-	<iframe id="ad" src="https://itch.io/embed/1397309?bg_color=0d1120&amp;fg_color=cccccc&amp;link_color=f2843c&amp;border_color=bebebe" width="568" height="167" frameborder="0"><a href="https://coldcalzone.itch.io/bread">Bread Bread Breadvolution: Extra Toasty by ColdCalzone</a></iframe>
+	<div id="ad">
+	<iframe src="https://itch.io/embed/1397309?bg_color=0d1120&amp;fg_color=cccccc&amp;link_color=f2843c&amp;border_color=bebebe" width="568" height="167" frameborder="0"><a href="https://coldcalzone.itch.io/bread">Bread Bread Breadvolution: Extra Toasty by ColdCalzone</a></iframe>
+	</div>
 </section>
 <hr>
