@@ -44,7 +44,7 @@
 	{
 	"name": "Project seven: Mamus",
 	"description": "This project was made for the <a href=\"https://itch.io/jam/godot-wild-jam-47\">47th Godot Wild Jam</a>. This project was made in Godot in the span of 9 days. I really liked working on it, playing with viewports to make the symmetry effect was surprisingly easy. The hardest part (save for level design) was fine tuning the controls and audio - this is my first time using Rigid Bodies for the player and I think it show with the code turning the player into a glorified Kinematic Body with physics overhead.",
-	"source": "https://github.com/ColdCalzone/Bread-Bread-Breadvolution-Extra-Toasty",
+	"source": "https://github.com/ColdCalzone/GWJ-47",
 	"icon": "/icons/Mamus.gif",
 	"tags": ["Godot", "Playable", "Fun", "GWJ"]
 	}
